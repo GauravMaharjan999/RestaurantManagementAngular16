@@ -10,9 +10,7 @@ import { OrderService } from '../shared/order.service';
 })
 export class OrdersComponent implements OnInit{
 
-  constructor(private  services : OrderService){
-
-  }
+  
   ngOnInit(): void {
     
   }
