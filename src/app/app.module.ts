@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { OrderService } from './shared/order.service';
 import { FormsModule } from '@angular/forms';
 import { OrderComponent } from './orders/order/order.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatDialogModule} from '@angular/material/dialog';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { OrderComponent } from './orders/order/order.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule 
+    FormsModule,
+    BrowserAnimationsModule,
+    MatDialogModule
   ],
   providers: [OrderService],
   bootstrap: [AppComponent]

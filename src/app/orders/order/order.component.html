@@ -42,7 +42,7 @@
       </div>
     </div>
     <!-- order items table-->
-    <!-- <table class="table table-borderless">
+    <table class="table table-borderless">
       <thead class="thead-light">
         <th>Food</th>
         <th>Price</th>
@@ -66,11 +66,11 @@
           <td>{{item.Total}}</td>
           <td>
             <a class="btn btn-sm btn-info text-white" (click)="AddOrEditOrderItem(i,service.formData.OrderId)"><i class="fa fa-pencil"></i></a>
-            <a class="btn btn-sm btn-danger text-white ml-1" (click)="onDeleteOrderItem(item.OrderItemID,i)"><i class="fa fa-trash"></i></a>
+            <a class="btn btn-sm btn-danger text-white ml-1" (click)="onDeleteOrderItem(item.OrderItemId,i)"><i class="fa fa-trash"></i></a>
           </td>
         </tr>
       </tbody>
-    </table>-->
+    </table>
     <div class="form-group">
       <button type="submit" class="btn btn-dark"><i class="fa fa-database"></i> Submit</button>
       <a class="btn btn-outline-dark ml-1" routerLink="/orders"><i class="fa fa-table"></i> View Orders</a>

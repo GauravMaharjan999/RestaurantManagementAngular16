@@ -10,4 +10,8 @@ export class OrderItem {
   Item!: number;
 
   Order!: number;
+
+  ItemName!:string;
+  Price!:number;
+  Total!:number;
 }
